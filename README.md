@@ -33,17 +33,19 @@ The project downloads financial data, computes returns and volatility, generates
 ---
 
 ## Project Structure
-portfolio_optimization_project/
+
+portfolio-optimization-risk-analysis/
+│
 ├── example_analysis.py
 ├── portfolio_optimizer.py
 ├── requirements.txt
-├── README.md
-├── outputs/
-│ ├── correlation_matrix.png
-│ ├── efficient_frontier.png
-│ ├── drawdown_chart.png
-│ ├── cumulative_returns.png
-│ └── portfolio_report.txt
+│
+└── outputs/
+    ├── efficient_frontier.png
+    ├── correlation_matrix.png
+    ├── portfolio_report.txt
+    ├── cumulative_returns.png
+    └── drawdown_chart.png
 
 
 ---
